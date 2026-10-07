@@ -1,0 +1,40 @@
+{
+  "municipio": "Tultitlán",
+  "estado": "Estado de México",
+  "fuente": "Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública (SESNSP)",
+  "periodo": "2024 - 2026",
+  "instalacion_analizada": "Central de Ciclo Combinado Jorge Luque (Generadora Fénix)",
+  "empresa_evaluadora": "CEMAN (Centro de Monitoreo y Análisis)",
+  "indicadores_anuales_promedio": {
+    "total_delitos_municipales": 13200,
+    "robo_a_transportista_con_violencia": {
+      "casos_anuales": 540,
+      "clasificacion": "Foco Rojo Estatal (Corredor México 57D y López Portillo)"
+    },
+    "robo_de_vehiculo_con_violencia": {
+      "casos_anuales": 1350,
+      "clasificacion": "Alto"
+    },
+    "robo_a_negocio_e_industria": {
+      "casos_anuales": 820,
+      "clasificacion": "Medio - Alto"
+    },
+    "robo_a_transeunte_con_violencia": {
+      "casos_anuales": 1250,
+      "clasificacion": "Crítico en Paraderos de Lechería"
+    },
+    "homicidio_doloso": {
+      "casos_anuales": 95,
+      "clasificacion": "Pugnas Territoriales Intercártel"
+    },
+    "extorsion_denunciada": {
+      "casos_anuales": 130,
+      "cifra_negra_estimada_inegi": "Superior al 95%"
+    }
+  },
+  "cifra_negra_estimada_inegi_envipe": {
+    "promedio_estado_de_mexico": 93.1,
+    "extorsion_y_cobro_de_piso": 95.8,
+    "robo_transeunte_calle": 94.9
+  }
+}

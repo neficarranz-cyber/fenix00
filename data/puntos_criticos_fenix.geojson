@@ -1,0 +1,133 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "title": "Dictamen de Seguridad Patrimonial y Cobertura CCTV - Fénix CCC Jorge Luque",
+    "especificacion_rfp": "ES-SC-238-26 (Rev.01, 15 de septiembre de 2026)",
+    "sistema": "General / Monitoreo para el CCTV de JOL",
+    "cliente": "Generadora Fénix (Mota-Engil / SME)",
+    "proveedor_monitoreo": "CEMAN (Centro de Monitoreo y Análisis de Seguridad)",
+    "ubicacion_oficial": "Carretera Tlalnepantla - Cuautitlán Km 22.5 Industrial Lechería, Tultitlán, Estado de México",
+    "coordenadas_oficiales": [-99.1902971, 19.6176111],
+    "total_camaras_monitoreadas": 34,
+    "modalidad_servicio": "Dedicado 24/7/365 con supervisión de seguridad y procesos operativos",
+    "plazo_servicio": "6 meses iniciales (carácter de prueba)",
+    "condiciones_comerciales": "MXN, facturación mensual a 30 días contra entrega de informe mensual",
+    "certificaciones_ceman": ["ISO 9001", "ISO 18788", "ISO 17024", "CONOCER EC0213", "ASIS International", "NOM-035-STPS-2018", "DGSP Federal/Estatal"]
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-99.1902971, 19.6176111]
+      },
+      "properties": {
+        "id": 1,
+        "nombre": "P1. Subestación Eléctrica, Turbinas & Casa de Máquinas",
+        "especificacion": "ES-SC-238-26 Sec. 3.2 y 3.3",
+        "categoria": "Infraestructura Crítica Estratégica (1,660 MW)",
+        "camaras_asignadas": 10,
+        "nivel_riesgo": "Crítico",
+        "score_riesgo": 9.2,
+        "delito_o_anomalia": "Robo de cable de cobre, tierras físicas, sabotaje y desvíos a procedimientos operativos de alta tensión.",
+        "solucion_ceman": "Monitoreo permanente con 10 cámaras (domos PTZ térmicos 360° con auto-tracking, domos de proceso y analítica de temperatura).",
+        "protocolo_operativo": "Detección inmediata de intrusión y verificación de equipo de protección personal (EPP) en áreas de arco eléctrico."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-99.1923, 19.6181]
+      },
+      "properties": {
+        "id": 2,
+        "nombre": "P2. Flanco Poniente (Autopista México-Querétaro 57D)",
+        "especificacion": "ES-SC-238-26 Sec. 3.2",
+        "categoria": "Vulnerabilidad Perimetral / Corredor de Fuga",
+        "camaras_asignadas": 6,
+        "nivel_riesgo": "Alto",
+        "score_riesgo": 8.6,
+        "delito_o_anomalia": "Piratería del asfalto con inhibidores (jammers), halconeo estático en acotamiento y arrojo de proyectiles.",
+        "solucion_ceman": "6 cámaras térmicas bispectrales (alcance 300 m) con analítica de vehículo sospechoso detenido en acotamiento.",
+        "protocolo_operativo": "Alerta prioritaria a CEMAN y activación de enlace con C5 Edoméx ante presencia de vehículos sin justificación vial."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-99.1908, 19.6165]
+      },
+      "properties": {
+        "id": 3,
+        "nombre": "P3. Acceso Sur (Calle de Guadalupe & Caseta Principal)",
+        "especificacion": "ES-SC-238-26 Sec. 3.2 y 3.3",
+        "categoria": "Control de Accesos / Seguridad del Personal",
+        "camaras_asignadas": 6,
+        "nivel_riesgo": "Alto",
+        "score_riesgo": 8.4,
+        "delito_o_anomalia": "Asaltos a trabajadores en cambios de turno, robo vehicular y coacción por pseudo-sindicatos de transporte.",
+        "solucion_ceman": "6 cámaras con LPR (lectura automática de placas), domos antivandálicos y botón de pánico en caseta enlazado a CEMAN.",
+        "protocolo_operativo": "Verificación de listas blancas de contratistas y transportistas autorizados; reporte de incidencias en turno."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-99.1895, 19.6189]
+      },
+      "properties": {
+        "id": 4,
+        "nombre": "P4. Barda Norte (Colindancia Tultipark I & CFE Atizapán)",
+        "especificacion": "ES-SC-238-26 Sec. 3.2",
+        "categoria": "Punto Ciego CPTED / Barda Perimetral",
+        "camaras_asignadas": 5,
+        "nivel_riesgo": "Medio-Alto",
+        "score_riesgo": 7.8,
+        "delito_o_anomalia": "Escalamiento nocturno, baja iluminación, maleza perimetral y calle industrial solitaria.",
+        "solucion_ceman": "5 cámaras DarkFighter 4K con cruce de línea virtual (tripwire) y altavoces IP con audio bidireccional.",
+        "protocolo_operativo": "Voceo disuasivo en vivo desde el Centro de Monitoreo CEMAN al registrarse aproximación a menos de 2 metros del muro."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-99.1882, 19.6178]
+      },
+      "properties": {
+        "id": 5,
+        "nombre": "P5. Flanco Oriente (Estación E2 GNV Lechería & Vías Férreas)",
+        "especificacion": "ES-SC-238-26 Sec. 3.2 y 3.3",
+        "categoria": "Riesgo Tecnológico Combinado / Población Flotante",
+        "camaras_asignadas": 5,
+        "nivel_riesgo": "Medio-Alto",
+        "score_riesgo": 7.9,
+        "delito_o_anomalia": "Peligro por ductos de gas natural, colindancia con gasera y tránsito de personas en derecho de vía ferroviario.",
+        "solucion_ceman": "5 cámaras con certificación antiexplosión ATEX y detección de merodeo prolongado sobre derecho de vía.",
+        "protocolo_operativo": "Supervisión de protocolos de seguridad industrial en maniobras cercanas a tuberías de gas y reporte de desvíos."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-99.1935, 19.6202]
+      },
+      "properties": {
+        "id": 6,
+        "nombre": "P6. Enlace Logístico y Rutas de Aproximación Autopista 57D",
+        "especificacion": "ES-SC-238-26 Sec. 3.2",
+        "categoria": "Seguridad de la Cadena de Suministro",
+        "camaras_asignadas": 2,
+        "nivel_riesgo": "Alto",
+        "score_riesgo": 8.5,
+        "delito_o_anomalia": "Emboscadas a tractocamiones de insumos críticos, químicos y refacciones en bajopuentes de Lechería.",
+        "solucion_ceman": "2 cámaras de visión contextual de aproximación para custodia virtual remota de convoyes y pipas.",
+        "protocolo_operativo": "Seguimiento por CCTV al arribo programado de unidades de carga pesada hasta su ingreso a báscula."
+      }
+    }
+  ]
+}
